@@ -1,0 +1,23 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "A simple static portfolio page for a web developer.",
+  "homepage": "https://github.com/DanielRJilek/homepage#readme",
+  "bugs": {
+    "url": "https://github.com/DanielRJilek/homepage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielRJilek/homepage.git"
+  },
+  "license": "MIT",
+  "author": "DanielRJilek",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
+  }
+}

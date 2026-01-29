@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" href="./images/icon.png">
+  </head>
+  <body class="vh-100 d-flex flex-column text-bg-secondary">
+    <header class="shadow">
+      <nav class="navbar navbar-expand-md text-bg-dark link-light">
+        <div class="container-fluid">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="false" href="./">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="false" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="false" href="./about.html"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="mt-auto mb-auto text-bg-secondary">
+      <div class="container-fluid mx-auto">
+        <div class="row p-3">
+          <div
+            class="col d-flex justify-content-center align-items-center text-center"
+          >
+            <div class="mx-auto container">
+              <h1 class="name-header">Hi! I'm Daniel Jilek</h1>
+              <h2 class="p-2">
+                I'm a computer science student at Northeastern University in
+                Boston.
+              </h2>
+              <div class="btn-holder">
+                <a href="./portfolio.html" class="btn btn-lg text-bg-primary"
+                  >Portfolio</a
+                >
+                <a href="./about.html" class="btn btn-lg text-bg-primary"
+                  >About</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              id="carousel"
+              class="carousel slide carousel-fade mx-auto"
+              data-bs-ride="carousel"
+              data-bs-interval="3000"
+              data-bs-pause="false"
+            >
+              <div class="carousel-inner h-100">
+                <div class="carousel-item h-100 active">
+                  <img
+                    src="./images/Libro.png"
+                    class="d-block w-100 h-100"
+                    alt="Libro de los Juegos"
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <img
+                    src="./images/Airport.png"
+                    class="d-block w-100 h-100"
+                    alt="Airport Manager"
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <div class="d-block w-100 h-100 text-center">
+                    <h1 class="p-2">To be continued...</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" href="./images/icon.png">
+  </head>
+  <body class="text-bg-secondary">
+    <header class="shadow">
+      <nav class="navbar navbar-expand-md text-bg-dark link-light">
+        <div class="container-fluid">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="false" href="./">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="false" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="false" href="./about.html"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container portfolio">
+        <h1 class="p-2">Projects</h1>
+        <hr />
+        <div class="row">
+          <div class="col">
+            <h2>Libro de los Juegos</h2>
+            <p>
+              This is a fully functional game website based on the medieval
+              Spanish document about table games called Libro de los Juegos.
+            </p>
+            <p>
+              Users can read about popular board games played in 14th century
+              Spain, while listening to contempary Spanish music.
+            </p>
+            <p>
+              Multiplayer compatibility allows users to play with their friends
+              wherever they are.
+            </p>
+            <p>
+              Built using an expressJS backend, with a React based front end,
+              and using MongoDB for database.
+            </p>
+            <div class="btn-holder">
+              <a
+                href="https://libro-de-los-juegos.onrender.com/"
+                class="btn text-bg-primary"
+                >Play Now</a
+              >
+              <a
+                href="https://github.com/DanielRJilek/libro-de-los-juegos"
+                class="btn text-bg-primary"
+                >View Source Code</a
+              >
+            </div>
+          </div>
+          <div class="col">
+            <img
+              src="./images/Libro.png"
+              class="d-block w-100 h-100 shadow"
+              alt="Libro de los Juegos"
+            />
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col">
+            <h2>Airport Manager</h2>
+            <p>
+              Airport manager implements a full stack airport management
+              applciation that allows users to schedule flights, assign
+              aircraft, book flights, change seats, and more.
+            </p>
+            <p>
+              Build with a React clientside and using expressJS for the backend
+              with a mySQL database.
+            </p>
+            <div class="btn-holder">
+              <a
+                href="https://github.com/DanielRJilek/airport_management"
+                class="btn text-bg-primary"
+                >View Source Code</a
+              >
+            </div>
+          </div>
+          <div class="col">
+            <img
+              src="./images/Airport.png"
+              class="d-block w-100 h-100 shadow"
+              alt="Airport Manager"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

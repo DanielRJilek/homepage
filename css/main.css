@@ -1,0 +1,111 @@
+#carousel {
+  height: 500px;
+  width: 900px;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+#carousel img {
+  object-fit: fill;
+}
+
+.nav-link {
+  color: white;
+  transition: transform 0.1s ease-in-out;
+}
+
+.nav-link:hover {
+  color: white;
+  filter: brightness(1.5);
+  transform: scale(1.1);
+}
+
+.nav-item:hover {
+  filter: brightness(1.5);
+}
+
+hr {
+  margin: 5rem 0;
+}
+
+.portfolio {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.btn {
+  transition: transform 0.1s ease-in-out;
+  box-shadow: 0 6px 10px rgba(46, 46, 46, 0.8);
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+  transform: scale(1.1);
+}
+
+.name-header {
+  font-weight: bolder;
+  font-size: 5em;
+  padding-bottom: 30px;
+}
+
+.shadow {
+  box-shadow: 0 6px 10px rgba(46, 46, 46, 0.8);
+}
+
+.btn-holder {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.btn-holder .btn {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h1 {
+  padding-bottom: 25px;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+.map-holder {
+  position: relative;
+}
+
+#airplane {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  width: 100px;
+  transition: transform 1s ease-in-out ;
+}
+
+.texas {
+    animation: texas 1s ease-in-out forwards;
+}
+
+.boston {
+    animation: boston 1s ease-in-out forwards;
+}
+
+@keyframes boston {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(180%, -75%);
+    }
+}
+
+@keyframes texas {
+    0% {
+        transform: translate(180%, -75%) rotate(180deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(180deg);
+    }
+}
