@@ -11,7 +11,7 @@ using VSCode agent and then modified.
 
 ## Screenshot
 
-![Site Screenshot](images/Screenshot.png)
+![Site Screenshot](images/screenshot.png)
 
 ## Instructions to Build / Run Locally
 
