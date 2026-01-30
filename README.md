@@ -2,19 +2,22 @@
 
 **Author:** Daniel Jilek
 
-**Class Link:** Replace with your class page or syllabus: https://example.edu/CS5330
+**Class Link:** Replace with your class page or syllabus: https://johnguerra.co/classes/webDevelopment_online_spring_2026/
 
 ## Project Objective
 
-This repository contains a small personal portfolio website for a full-stack web developer. The site demonstrates projects, an about page, and a simple home/portfolio layout built with Bootstrap and static HTML/CSS/JS.
+This repository contains a small personal portfolio website for a full-stack web developer. The site demonstrates projects, an about page, and a simple home/portfolio layout built with Bootstrap and static HTML/CSS/JS. Two pages (index and portfolio) were made individually, and the about page was generated
+using VSCode agent and then modified.
 
 ## Screenshot
 
-![Site Screenshot](images/Libro.png)
+![Site Screenshot](images/Screenshot.png)
 
 ## Instructions to Build / Run Locally
 
-This is a static site. You can open `index.html` directly in a browser, or run a simple local HTTP server to serve the files:
+View the site here: https://danielrjilek.github.io/homepage/
+
+Alternatively, you can open `index.html` directly in a browser, or run a simple local HTTP server to serve the files:
 
 - Using Python 3 (recommended):
 
@@ -29,9 +32,3 @@ python -m http.server 8000
 ```bash
 npx serve .
 ```
-
-Replace placeholder text (author, class link, and content) with your personal details and screenshots as needed.
-
----
-
-Project homepage: https://danielrjilek.github.io/homepage/
