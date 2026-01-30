@@ -2,7 +2,7 @@
 
 **Author:** Daniel Jilek
 
-**Class Link:** Replace with your class page or syllabus: https://johnguerra.co/classes/webDevelopment_online_spring_2026/
+**Class Link:** https://johnguerra.co/classes/webDevelopment_online_spring_2026/
 
 ## Project Objective
 
@@ -32,3 +32,7 @@ python -m http.server 8000
 ```bash
 npx serve .
 ```
+
+## AI Usage
+
+This README was generated using AI and then modified. The about.html page was also generated using AI. The prompts used can be found in the design document.
